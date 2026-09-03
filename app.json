@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Tritonis",
+    "slug": "tritonis-app",
+    "version": "1.0.0",
+    "scheme": "tritonis",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F7EFE2",
+    "icon": "./assets/icon.png",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-notifications",
+      [
+        "react-native-ble-plx",
+        {
+          "isBackgroundEnabled": false,
+          "modes": []
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#F7EFE2"
+        }
+      ]
+    ],
+    "android": {
+      "package": "tn.tritonis.app",
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F7EFE2"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "tn.tritonis.app",
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "Tritonis uses Bluetooth to set up your pump controller."
+      }
+    },
+    "extra": {
+      "apiUrl": "http://192.168.1.11:4000"
+    }
+  }
+}
