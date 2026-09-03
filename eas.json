@@ -3,6 +3,9 @@
   "build": {
     "development": { "developmentClient": true, "distribution": "internal", "android": { "buildType": "apk" } },
     "preview": { "distribution": "internal", "android": { "buildType": "apk" } },
-    "production": {}
+    "production": {
+      "node": "20.18.0",
+      "npm": "10.9.0"
+    }
   }
 }

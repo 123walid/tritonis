@@ -35,7 +35,9 @@
       "permissions": [
         "android.permission.BLUETOOTH_SCAN",
         "android.permission.BLUETOOTH_CONNECT",
-        "android.permission.ACCESS_FINE_LOCATION"
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN"
       ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -49,7 +51,14 @@
       }
     },
     "extra": {
-      "apiUrl": "http://192.168.1.11:4000"
+      "apiUrl": "http://192.168.1.11:4000",
+      "router": {},
+      "eas": {
+        "projectId": "3504565b-f9ca-4816-8589-12d4ff680233"
+      }
+    },
+    "updates": {
+      "enabled": false
     }
   }
 }
