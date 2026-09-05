@@ -50,7 +50,7 @@
       }
     },
     "extra": {
-      "apiUrl": "https://decarboniser.greentech.training/api/v1",
+      "apiUrl": "https://decarboniser.greentech.training",
       "router": {},
       "eas": {
         "projectId": "3504565b-f9ca-4816-8589-12d4ff680233"
