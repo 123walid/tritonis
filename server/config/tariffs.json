@@ -1,9 +1,0 @@
-{
-  "currency": "TND",
-  "comment": "STEG electricity tariff periods (Africa/Tunis local time). Editable; reloaded at server boot.",
-  "periods": [
-    { "name": "off_peak", "from": "23:00", "to": "08:00", "price_tnd_kwh": 0.116 },
-    { "name": "standard", "from": "08:00", "to": "18:00", "price_tnd_kwh": 0.140 },
-    { "name": "peak",     "from": "18:00", "to": "23:00", "price_tnd_kwh": 0.391 }
-  ]
-}
