@@ -31,7 +31,6 @@
     ],
     "android": {
       "package": "tn.tritonis.app",
-      "edgeToEdgeEnabled": true,
       "permissions": [
         "android.permission.BLUETOOTH_SCAN",
         "android.permission.BLUETOOTH_CONNECT",
@@ -51,7 +50,7 @@
       }
     },
     "extra": {
-      "apiUrl": "http://192.168.1.11:4000",
+      "apiUrl": "https://decarboniser.greentech.training/api/v1",
       "router": {},
       "eas": {
         "projectId": "3504565b-f9ca-4816-8589-12d4ff680233"
